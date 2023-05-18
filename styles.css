@@ -1,0 +1,80 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+@font-face{
+	font-family: 'Le Casino Royale';
+	src: url("Le Casino Royale.otf");
+}
+
+html,
+body {
+	background-image: url("casino.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 100%;
+}
+
+#naslov {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+	font-size:50px;
+	font-family: 'Le Casino Royale';
+	text-shadow: 2px 2px 2px  black;
+
+}
+
+
+#glavni {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 255, 0, .8);
+    border-radius: 10px;
+	width: 700px;
+	heihgt: 500px;
+}
+
+form {}
+
+#igrac {
+    width: 100%;
+    display: flex; 
+    justify-content:center;
+	text-align: center;
+
+}
+
+.igralec {
+
+    min-height: 80px;
+    width: 100%;
+	padding-top: 50px;
+	padding-right: 10px;
+}
+
+#izbira {
+    
+    text-align: center;
+	margin: 10px;
+	padding-top: 20px;
+
+}
+
+#konec {
+	text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 255, 0, .8);
+    border-radius: 10px;
+	width: 100px;
+	margin: 30px;
+	padding: 30px;
+	font-family: 'Le Casino Royale';
+	font-size:20px;
+}
